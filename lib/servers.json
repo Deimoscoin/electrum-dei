@@ -1,0 +1,20 @@
+{
+    "electrum.deimoscoin.org": {
+        "pruning": "-",
+        "s": "30008",
+        "t": "30009",
+        "version": "1.8"
+    },
+    "fortuna.deimoscoin.org": {
+        "pruning": "-",
+        "s": "30008",
+        "t": "30009",
+        "version": "1.8"
+    },
+    "eidolon.deimoscoin.org": {
+        "pruning": "-",
+        "s": "30008",
+        "t": "30009",
+        "version": "1.8"
+    }
+}
