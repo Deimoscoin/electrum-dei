@@ -117,7 +117,7 @@ class ExchangeBase(PrintError):
    
 class Paprika(ExchangeBase):
     def get_rates(self, ccy):
-        json = self.get_json('api.coinpaprika.com', '/v1/coins/dei-deimos/ohlcv/latest')
+        json = self.get_json('api.coinpaprika.com', '/v1/coins/dei-deimos/ohlcv/today')
         return {'USD': Decimal(json[0]['close'])}
 
     def history_ccys(self):
